@@ -38,7 +38,7 @@
 ## XSS (Cross-Site Scripting)
 ```html
 <script>alert("hey guys");</script>
-
+```
 
 
 ## Defensive Measures
@@ -53,7 +53,7 @@
 
 ```php
 $query ="insert into itembox(date ,name ,product ,price ,screenshot,approved)values(NOW(),'$name','$product','$price','$screenshot',false)";
-
+```
 ## Examples of SQL Injection
 
 - Using common SQL injection strings:
